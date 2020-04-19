@@ -29,7 +29,8 @@ describe('Counter', () => {
   it('should increment', () => {
     const { getByText, getByTestId } = wrapper;
 
-    fireEvent(getByText('Increment')).click();
+    fireEvent.click(getByText('Increment'));
+
     expect(getByTestId('counter')).toHaveTextContent('1');
   });
 });
