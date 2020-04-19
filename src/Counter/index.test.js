@@ -33,5 +33,14 @@ describe('Counter', () => {
 
     expect(getByTestId('counter')).toHaveTextContent('1');
   });
+
+  it('should decrement', () => {
+    const { getByText, getByTestId } = wrapper;
+    
+    fireEvent.click(getByText('Increment'));
+    fireEvent.click(getByText('Decrement'));
+
+    expect(getByTestId('counter')).toHaveTextContent('0');
+  });
 });
 
