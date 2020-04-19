@@ -42,5 +42,13 @@ describe('Counter', () => {
 
     expect(getByTestId('counter')).toHaveTextContent('0');
   });
+
+  it('should not render negative values on counter', () => {
+    const { getByText, getByTestId } = wrapper;
+
+    fireEvent.click(getByText('Decrement'));
+
+    expect(getByTestId('counter')).toHaveTextContent('0');
+  });
 });
 
