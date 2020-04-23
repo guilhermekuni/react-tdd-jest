@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from './Counter';
+import Counter from './1-Counter';
 
 function App() {
   return (
