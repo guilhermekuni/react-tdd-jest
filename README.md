@@ -1,11 +1,11 @@
-# React TDD Simple Examples
+<h1 align="center">React TDD Simple Examples</h1>
 
 This project have some simple examples of TDD/BDD implementations using ReactJS and Jest.<br />
 The intention is to keep updating this repository according to my studies.
 
 ## Libraries
 
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
+- ⚛️ **React Js** - A JavaScript library for building user interfaces
 - :microscope: **Jest** - A JavaSciprt library for unit/integration testing implementation
 
 ## Implemented Examples
