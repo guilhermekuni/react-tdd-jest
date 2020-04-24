@@ -30,7 +30,7 @@
 ### Run Application
 
 1. Run `yarn` to install project dependecies.
-2. Run `yarn start` to runn the application in the development mode.
+2. Run `yarn start` to run the application in the development mode.
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
    - The project wont show any of the components by default because the focus is the test implementations. If you want to see them in browser, you just have to import and put the component in App.js.
 <br />
