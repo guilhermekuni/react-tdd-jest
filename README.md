@@ -23,7 +23,8 @@
 
 1. Run `yarn` to install project dependecies.
 2. Run `yarn test` to run all the implemented tests.
- - You can also run `yarn test {FileName}` to test an specific test.
+ - You can also run `yarn test {FileName}` to run a specific test and see all the steps.
+ - Ex: `yarn test TodoList`.
 <br />
 
 ### Run Application
