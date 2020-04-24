@@ -26,5 +26,14 @@ describe('Todo List', () => {
 
   it('should add task to list', () => {
     const { getByText, getByTestId } = component;
+
+    const todoInput = getByTestId('todoInput'); 
+    const taskList = getByTestId('taskList'); 
+
+    fireEvent.change(todoInput, { target: { value: 'Make this test pass' } });
+    fireEvent.click(getByText('Add task'));
+
+    expect(taskList.children.length).toBe(1);
+    expect(todoInput).toHaveTextContent('');
   });
 });
