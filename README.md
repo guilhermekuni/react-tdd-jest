@@ -1,7 +1,9 @@
 <h1 align="center">React TDD Simple Examples</h1>
 
-This project have some simple examples of TDD/BDD implementations using ReactJS and Jest.<br />
-The intention is to keep updating this repository according to my studies.
+<div align="center">
+    <p>This project have some simple examples of TDD/BDD implementations using ReactJS and Jest.</p>
+    <p>The intention is to keep updating this repository according to my studies.</p>
+</div>
 
 ## Libraries
 
@@ -12,6 +14,7 @@ The intention is to keep updating this repository according to my studies.
 
 - Counter: a simple counter component that use `useState` hook.
 
+
 ## Getting Started
 
 ### Run Tests
@@ -20,12 +23,14 @@ The intention is to keep updating this repository according to my studies.
 2. Run `yarn test` to run all the implemented tests.
  - You can also run `yarn test {FileName}` to test an specific test.
 
+
 ### Run Application
 
 1. Run `yarn` to install project dependecies.
 2. Run `yarn start` to runn the application in the development mode.
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
  - The project wont show any of the components by default because the focus is the test implementations. If you want to see them in browser, you just have to import and put the component in App.js.
+ 
 
 
 ## License
