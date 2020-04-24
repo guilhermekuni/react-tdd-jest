@@ -7,7 +7,7 @@
 
 ## Libraries
 
-- ⚛️ **React Js** - A JavaScript library for building user interfaces
+- ⚛️ **ReactJS** - A JavaScript library for building user interfaces
 - :microscope: **Jest** - A JavaSciprt library for unit/integration testing implementation
 
 ## Implemented Examples
@@ -30,7 +30,7 @@
 2. Run `yarn start` to runn the application in the development mode.
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
  - The project wont show any of the components by default because the focus is the test implementations. If you want to see them in browser, you just have to import and put the component in App.js.
- 
+
 
 
 ## License
