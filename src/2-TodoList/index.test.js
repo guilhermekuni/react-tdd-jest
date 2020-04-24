@@ -14,5 +14,13 @@ describe('Todo List', () => {
 
     expect(getByText('Todo List')).toBeInTheDocument();
     expect(getByTestId('todoInput')).toBeInTheDocument();
+    expect(getByText('Add task')).toBeInTheDocument();
+  });
+
+  it('should render empty list', () => {
+    const { getByText, getByTestId } = wrapper;
+
+    expect(getByTestId('taskList')).toBeInTheDocument();
+    expect(getByText('There is no task to do!')).toBeInTheDocument();
   });
 });
