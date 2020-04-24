@@ -3,14 +3,14 @@ import { render, fireEvent } from '@testing-library/react';
 import TodoList from '.';
 
 describe('Todo List', () => {
-  let wrapper;
+  let component;
 
   beforeEach(() => {
-    wrapper = render(<TodoList />);
+    component = render(<TodoList />);
   });
 
   it('should render', () => {
-    const { getByText, getByTestId } = wrapper;
+    const { getByText, getByTestId } = component;
 
     expect(getByText('Todo List')).toBeInTheDocument();
     expect(getByTestId('todoInput')).toBeInTheDocument();
@@ -18,9 +18,13 @@ describe('Todo List', () => {
   });
 
   it('should render empty list', () => {
-    const { getByText, getByTestId } = wrapper;
+    const { getByText, getByTestId } = component;
 
     expect(getByTestId('taskList')).toBeInTheDocument();
     expect(getByText('There is no task to do!')).toBeInTheDocument();
+  });
+
+  it('should add task to list', () => {
+    const { getByText, getByTestId } = component;
   });
 });

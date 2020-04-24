@@ -3,14 +3,14 @@ import { render, fireEvent } from '@testing-library/react';
 import Counter from '.';
 
 describe('Counter', () => {
-  let wrapper;
+  let component;
 
   beforeEach(() => {
-    wrapper = render(<Counter />);
+    component = render(<Counter />);
   });
 
   it('should render', () => {
-    const { getByText } = wrapper;
+    const { getByText } = component;
 
     expect(getByText('Counter:')).toBeInTheDocument();
     expect(getByText('Increment')).toBeInTheDocument();
@@ -18,7 +18,7 @@ describe('Counter', () => {
   });
 
   it('should render counter with default value', () => {
-    const { getByTestId } = wrapper;
+    const { getByTestId } = component;
 
     const counter = getByTestId('counter');
 
@@ -27,7 +27,7 @@ describe('Counter', () => {
   });
 
   it('should increment', () => {
-    const { getByText, getByTestId } = wrapper;
+    const { getByText, getByTestId } = component;
 
     fireEvent.click(getByText('Increment'));
 
@@ -35,7 +35,7 @@ describe('Counter', () => {
   });
 
   it('should decrement', () => {
-    const { getByText, getByTestId } = wrapper;
+    const { getByText, getByTestId } = component;
     
     fireEvent.click(getByText('Increment'));
     fireEvent.click(getByText('Decrement'));
@@ -44,7 +44,7 @@ describe('Counter', () => {
   });
 
   it('should not render negative values on counter', () => {
-    const { getByText, getByTestId } = wrapper;
+    const { getByText, getByTestId } = component;
 
     fireEvent.click(getByText('Decrement'));
 
