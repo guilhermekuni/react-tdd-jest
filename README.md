@@ -14,6 +14,7 @@
 ## Implemented Examples
 
 - Counter: a simple counter component that use `useState` hook.
+- TodoList: a simple todo list component that use `useState` hook.
 <br />
 
 ## Getting Started

@@ -35,5 +35,6 @@ describe('Todo List', () => {
 
     expect(taskList.children.length).toBe(1);
     expect(todoInput).toHaveTextContent('');
+    expect(getByText('Make this test pass')).toBeInTheDocument();
   });
 });
