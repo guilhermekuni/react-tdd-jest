@@ -1,10 +1,9 @@
 import React from 'react';
-import Counter from './1-Counter';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* To see a component in browser, import and put it here */}
     </div>
   );
 }
