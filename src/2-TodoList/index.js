@@ -11,6 +11,12 @@ export default function TodoList() {
     setNewTask('');
   };
 
+  const handleRemoveTask = (item) => {
+    const updatedTaskList = tasks.filter(task => task !== item);
+
+    setTasks(updatedTaskList);
+  };
+
   return (
     <>
       <h1>Todo List</h1>
@@ -28,8 +34,17 @@ export default function TodoList() {
 
       <ul data-testid="taskList">
         {
-          (tasks && tasks.length > 0) 
-            ? (tasks.map((item, index) => <li key={index}>{item}</li>)) 
+          (tasks && tasks.length > 0)
+            ? (tasks.map((item, index) => (
+              <li key={index}>
+                {item}
+                <span
+                  onClick={() => handleRemoveTask(item)}
+                  data-testid={`remove-item-${index}`}
+                >
+                  Remove
+                </span>
+              </li>)))
             : <h2>There is no task to do!</h2>
         }
       </ul>
