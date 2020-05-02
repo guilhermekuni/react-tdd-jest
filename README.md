@@ -17,7 +17,7 @@
 - TodoList: a simple todo list component that implements `useState` hook.
 <br />
 
-## Getting Started
+## Getting Started 🚀
 
 ### Run Tests 🔬
 
