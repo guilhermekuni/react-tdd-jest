@@ -1,17 +1,17 @@
-<h1 align="center">React TDD Simple Examples</h1>
+<h1 align="center">⚛️ React TDD Simple Examples :microscope:</h1>
 
 <div align="center">
     <p>This project have some simple examples of TDD/BDD implementations using ReactJS and Jest.</p>
     <p>The intention is to keep updating this repository according to my studies.</p>
 </div>
 
-## Libraries
+## Libraries 📚
 
 - ⚛️ **ReactJS** - A JavaScript library for building user interfaces.
 - :microscope: **Jest** - A JavaScript library for unit/integration testing implementation.
 <br />
 
-## Implemented Examples
+## Implemented Examples 🧪
 
 - Counter: a simple counter component that implements `useState` hook.
 - TodoList: a simple todo list component that implements `useState` hook.
@@ -19,7 +19,7 @@
 
 ## Getting Started
 
-### Run Tests
+### Run Tests 🔬
 
 1. Run `yarn` to install project dependecies.
 2. Run `yarn test` to run all the implemented tests.
@@ -27,7 +27,7 @@
    - Ex: `yarn test TodoList`.
 <br />
 
-### Run Application
+### Run Application 💻
 
 1. Run `yarn` to install project dependecies.
 2. Run `yarn start` to run the application in the development mode.
@@ -35,6 +35,6 @@
    - The project wont show any of the components by default because the focus is the test implementations. If you want to see them in browser, you just have to import and put the component in App.js.
 <br />
 
-## License
+## License 📃
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
