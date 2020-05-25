@@ -7,8 +7,8 @@
 
 ## Libraries 📚
 
-- ⚛️ **ReactJS** - A JavaScript library for building user interfaces.
-- :microscope: **Jest** - A JavaScript library for unit/integration testing implementation.
+- **ReactJS** - A JavaScript library for building user interfaces.
+- **Jest** - A JavaScript library for unit/integration testing implementation.
 
 ## Implemented Examples 🧪
 
