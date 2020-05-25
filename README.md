@@ -1,9 +1,18 @@
-<h1 align="center">⚛️ React TDD Simple Examples :microscope:</h1>
+<h1 align="center">⚛️ React TDD with Jest :microscope:</h1>
 
 <div align="center">
-    <p>This project have some simple examples of TDD/BDD implementations using ReactJS and Jest.</p>
-    <p>The intention is to keep updating this repository according to my studies.</p>
+  <p align="center">
+    <img alt="Repository languages count" src="https://img.shields.io/github/languages/top/guilhermekuni/react-tdd-jest?color=%23BC4749">
+    <img alt="Repository top language" src="https://img.shields.io/github/languages/count/guilhermekuni/react-tdd-jest?color=%23BC4749">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/guilhermekuni/react-tdd-jest?color=%23BC4749">
+    <img alt="Repository last commit" src="https://img.shields.io/github/last-commit/guilhermekuni/react-tdd-jest?color=%23BC4749" />
+  </p>
+  <h3>React TDD simple examples</h3>
 </div>
+
+## About ℹ️
+
+This project have some simple examples of TDD/BDD implementations using ReactJS and Jest. The intention is to keep updating this repository according to my studies.
 
 ## Libraries 📚
 
