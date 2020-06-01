@@ -30,7 +30,7 @@ export default function TodoList() {
         data-testid="todoInput"
       />
 
-      <button onClick={handleAddTask}>Add task</button>
+      <button type="submit" onClick={handleAddTask}>Add task</button>
 
       <ul data-testid="taskList">
         {
