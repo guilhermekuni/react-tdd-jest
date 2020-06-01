@@ -12,7 +12,7 @@ export default function TodoList() {
   };
 
   const handleRemoveTask = (item) => {
-    const updatedTaskList = tasks.filter(task => task !== item);
+    const updatedTaskList = tasks.filter((task) => task !== item);
 
     setTasks(updatedTaskList);
   };
@@ -26,7 +26,7 @@ export default function TodoList() {
         type="text"
         id="todoInput"
         value={newTask}
-        onChange={e => setNewTask(e.target.value)}
+        onChange={(e) => setNewTask(e.target.value)}
         data-testid="todoInput"
       />
 
@@ -44,7 +44,8 @@ export default function TodoList() {
                 >
                   Remove
                 </span>
-              </li>)))
+              </li>
+            )))
             : <h2>There is no task to do!</h2>
         }
       </ul>
