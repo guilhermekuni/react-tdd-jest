@@ -25,6 +25,7 @@ This project have some simple examples of TDD/BDD implementations using ReactJS 
 
 - **ReactJS** - A JavaScript library for building user interfaces.
 - **Jest** - A JavaScript library for unit/integration testing implementation.
+- **React Testing Library** - Builds on top of DOM Testing Library by adding APIs for working with React components.
 
 ## Implemented Examples :pencil:
 
