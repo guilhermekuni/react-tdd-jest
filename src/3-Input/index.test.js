@@ -37,6 +37,7 @@ describe('Input', () => {
 
     fireEvent.change(input, { target: { value: 'Test 2' } });
 
+    // it's necessary to force rerender in this test because `testValue` is not an state prop
     rerender(<Input value={testValue} onChange={(e) => changeValue(e.target.value)} />);
 
     expect(input.value).toBe('Test 2');
