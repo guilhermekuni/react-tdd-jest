@@ -1,8 +1,12 @@
 import React from 'react';
 
-const Input = () => {
+const Input = ({ value, ...rest }) => {
   return (
-    <input data-testid="input" />
+    <input
+      value={value}
+      data-testid="input"
+      {...rest}
+    />
   );
 }
 
