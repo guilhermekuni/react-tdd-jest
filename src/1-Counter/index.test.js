@@ -36,7 +36,7 @@ describe('Counter', () => {
 
   it('should decrement', () => {
     const { getByText, getByTestId } = component;
-    
+
     fireEvent.click(getByText('Increment'));
     fireEvent.click(getByText('Decrement'));
 
@@ -51,4 +51,3 @@ describe('Counter', () => {
     expect(getByTestId('counter')).toHaveTextContent('0');
   });
 });
-
