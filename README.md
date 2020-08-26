@@ -31,6 +31,7 @@ This project have some simple examples of TDD/BDD implementations using ReactJS 
 
 - Counter: a simple counter component that implements `useState` hook.
 - TodoList: a simple todo list component that implements `useState` hook.
+- Input: a simple todo input component that implements `useState` hook.
 
 ## Getting Started :rocket:
 
